@@ -79,11 +79,11 @@ def eliza_response(statement):
 def chat(use_input=True, test_inputs=None):
     """Main ELIZA chat loop. Uses input() if interactive, else uses test_inputs."""
     print("\nWelcome to")
-    print(" EEEEEEE  LL      IIII  ZZZZZZ  AAAAAA  ")
-    print(" EE       LL       II   ZZ     AA    AA  ")
-    print(" EEEEEEE  LL       II    ZZ    AAAAAAAA  ")
-    print(" EE       LL       II     ZZ   AA    AA  ")
-    print(" EEEEEEE  LLLLLLL IIII ZZZZZZ  AA    AA  ")
+    print(" EEEEEEE  LL      IIII  ZZZZZZ   AAAAAA  ")
+    print(" EE       LL       II       ZZ  AA    AA  ")
+    print(" EEEEEEE  LL       II      ZZ   AAAAAAAA  ")
+    print(" EE       LL       II     ZZ    AA    AA  ")
+    print(" EEEEEEE  LLLLLLL IIII  ZZZZZZ  AA    AA  ")
     print("\nEliza is a mock Rogerian psychotherapist.")
     print("The original program was described by Joseph Weizenbaum in 1966.")
     print("This implementation is inspired by the original.")
